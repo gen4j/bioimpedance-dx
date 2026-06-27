@@ -1,0 +1,15 @@
+{
+  "include": ["bioimpedance_dx", "scripts", "tests"],
+  "exclude": [
+    "**/__pycache__",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".venv",
+    "data",
+    "mlruns",
+    "mlartifacts",
+    "models"
+  ],
+  "typeCheckingMode": "basic",
+  "reportMissingTypeStubs": false
+}
