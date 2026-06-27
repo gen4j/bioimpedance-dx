@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+*.pkl
+*.onnx
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+.mypy_cache/
+.ruff_cache/
+mlruns/
+*.ipynb_checkpoints/
