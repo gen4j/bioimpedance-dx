@@ -20,5 +20,7 @@ mlflow.db-*
 
 data/raw/*
 data/processed/*
+playgrounds/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
